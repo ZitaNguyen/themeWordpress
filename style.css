@@ -1,0 +1,84 @@
+/*
+Theme Name: Women Devs
+Author: Zita Nguyen
+Author URI: https://github.com/zitanguyen
+Description: Mocqups for Women Devs
+Version: 1.0
+*/
+
+/********************** TYPOGRAPHY **********************/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav a span {
+    color: black;
+}
+
+.googleMap h4, .newsletter h4, .contact h4{
+    color: white;
+}
+
+/********************** HEADER **********************/
+.topheader .btn {
+    color: white;
+    background-color: rgb(1, 50, 82);
+}
+
+.topheader .btn:hover {
+    color:rgb(1, 50, 82);
+    background-color: rgb(218, 218, 53);
+}
+
+header nav span img{
+    width: 250px;
+    height:200px;
+}
+
+#menu-main-menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#menu-main-menu li a {
+    color: rgb(1, 50, 82);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#menu-main-menu li a:hover {
+    color: white;
+    background-color: rgb(1, 50, 82);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 7px;
+}
+
+/********************** PROJECTOR **********************/
+body img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/********************** SECTION **********************/
+section {
+    background-color: white;
+}
+
+section aside img {
+    width: auto;
+    height: 20vh;
+}
+
+.clients img {
+    width: auto;
+    height: 5vh;
+    object-fit: cover;
+}
+
+/********************** FOOTER **********************/
+footer {
+    background-color: rgb(1, 50, 82);
+}
